@@ -67,4 +67,5 @@ This tutorial is going through what you need to manage python environments by yo
 
 ## Reference
 \[1]: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
 \[2]: https://stackoverflow.com/questions/38972052/anaconda-update-all-possible-packages
