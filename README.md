@@ -24,10 +24,12 @@ This tutorial is going through what you need to manage python environments by yo
     ``conda create -n [name] python=3.6 scipy=0.15.0 astroid babel``
 
 2. **Create an environment from .yml file**:
-    1. Create an environment from the example.yml file
-    ``conda env create -f example.yml``
-    2. Save current environment to the file
-    ``conda env export > example.yml``
+    1. Create an environment from the example.yml file with name in file .yml
+    ``conda env create -f [example.yml]``
+    1. Create an environment from the example.yml file with your specific name
+    ``conda env create -n [name] -f [example.yml]``
+    3. Save current environment to the file
+    ``conda env export > [example.yml]``
 
 3. **Remove an environment**
     1. In many case that some envs you do not remember those name. You can see all the envs by the command:
