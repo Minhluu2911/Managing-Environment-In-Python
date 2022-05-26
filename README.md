@@ -1,4 +1,4 @@
-# Managing-Environment-Using-Anaconda
+# Using-Anaconda
 This tutorial is going through what you need to manage python environments by yourself using Anaconda. This is just a summary that I think this is needed for beginners or any people want to use Anaconda prompt to handle python environment comfortably
 
 **Note:** all the in thing the square bracket [] is your choice
@@ -68,7 +68,16 @@ This tutorial is going through what you need to manage python environments by yo
     - Updata all package:
       ``conda update --all``
 
-
+# Using venv
+1. Creating a environment
+   - ``python3 -m venv [name]``
+2. Using environment: 
+   - Activate env:
+      ``source [name]/bin/activate``
+   - Deactivate env:
+      ``deactivate ``
+3. Removing environment:
+   - ``rm -r [path_to_env]``
 
 ## Reference
 \[1]: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
